@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F30326742339AEB200D9890D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F30326732339AEB200D9890D /* README.md */; };
 		F32A247C233495D100E37C0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32A247B233495D100E37C0A /* AppDelegate.swift */; };
 		F32A2481233495D100E37C0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F32A247F233495D100E37C0A /* Main.storyboard */; };
 		F32A2483233495D800E37C0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F32A2482233495D800E37C0A /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F30326732339AEB200D9890D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F32A2478233495D100E37C0A /* PennMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PennMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F32A247B233495D100E37C0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F32A2480233495D100E37C0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				F32A2482233495D800E37C0A /* Assets.xcassets */,
 				F32A2484233495D800E37C0A /* LaunchScreen.storyboard */,
 				F32A2487233495D800E37C0A /* Info.plist */,
+				F30326732339AEB200D9890D /* README.md */,
 			);
 			path = PennMobile;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F30326742339AEB200D9890D /* README.md in Resources */,
 				F32A24BE2338A96700E37C0A /* Fonts in Resources */,
 				F32A24B423355ACC00E37C0A /* TableViewCell2.xib in Resources */,
 				F32A2486233495D800E37C0A /* LaunchScreen.storyboard in Resources */,
