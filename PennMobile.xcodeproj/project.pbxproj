@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F32A247C233495D100E37C0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32A247B233495D100E37C0A /* AppDelegate.swift */; };
+		F32A2481233495D100E37C0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F32A247F233495D100E37C0A /* Main.storyboard */; };
+		F32A2483233495D800E37C0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F32A2482233495D800E37C0A /* Assets.xcassets */; };
+		F32A2486233495D800E37C0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F32A2484233495D800E37C0A /* LaunchScreen.storyboard */; };
+		F32A2491233495D800E37C0A /* PennMobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32A2490233495D800E37C0A /* PennMobileTests.swift */; };
+		F32A249C233495D800E37C0A /* PennMobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32A249B233495D800E37C0A /* PennMobileUITests.swift */; };
+		F32A24AA2335475A00E37C0A /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32A24A92335475A00E37C0A /* TableViewController.swift */; };
+		F32A24B323355ACC00E37C0A /* TableViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32A24B123355ACC00E37C0A /* TableViewCell2.swift */; };
+		F32A24B423355ACC00E37C0A /* TableViewCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = F32A24B223355ACC00E37C0A /* TableViewCell2.xib */; };
+		F32A24B52335BB4800E37C0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F32A2482233495D800E37C0A /* Assets.xcassets */; };
+		F32A24B62335BB4900E37C0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F32A2482233495D800E37C0A /* Assets.xcassets */; };
+		F32A24BE2338A96700E37C0A /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = F32A24BD2338A96700E37C0A /* Fonts */; };
+		F32A24BF2338A96700E37C0A /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = F32A24BD2338A96700E37C0A /* Fonts */; };
+		F32A24C02338A96700E37C0A /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = F32A24BD2338A96700E37C0A /* Fonts */; };
+		F32A24CB2338B41000E37C0A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F32A24CA2338B41000E37C0A /* WebKit.framework */; };
+		F32A24CD2338B52A00E37C0A /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32A24CC2338B52A00E37C0A /* WebViewController.swift */; };
+		F32A24CE2338B52A00E37C0A /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32A24CC2338B52A00E37C0A /* WebViewController.swift */; };
+		F32A24CF2338B52A00E37C0A /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32A24CC2338B52A00E37C0A /* WebViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F32A248D233495D800E37C0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F32A2470233495D100E37C0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F32A2477233495D100E37C0A;
+			remoteInfo = PennMobile;
+		};
+		F32A2498233495D800E37C0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F32A2470233495D100E37C0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F32A2477233495D100E37C0A;
+			remoteInfo = PennMobile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F32A2478233495D100E37C0A /* PennMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PennMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F32A247B233495D100E37C0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F32A2480233495D100E37C0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F32A2482233495D800E37C0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F32A2485233495D800E37C0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F32A2487233495D800E37C0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F32A248C233495D800E37C0A /* PennMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PennMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F32A2490233495D800E37C0A /* PennMobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PennMobileTests.swift; sourceTree = "<group>"; };
+		F32A2492233495D800E37C0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F32A2497233495D800E37C0A /* PennMobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PennMobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F32A249B233495D800E37C0A /* PennMobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PennMobileUITests.swift; sourceTree = "<group>"; };
+		F32A249D233495D800E37C0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F32A24A92335475A00E37C0A /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		F32A24B123355ACC00E37C0A /* TableViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell2.swift; sourceTree = "<group>"; };
+		F32A24B223355ACC00E37C0A /* TableViewCell2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell2.xib; sourceTree = "<group>"; };
+		F32A24BD2338A96700E37C0A /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Fonts; path = ../../../Desktop/Fonts; sourceTree = "<group>"; };
+		F32A24CA2338B41000E37C0A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		F32A24CC2338B52A00E37C0A /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WebViewController.swift; path = ../WebViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F32A2475233495D100E37C0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F32A24CB2338B41000E37C0A /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F32A2489233495D800E37C0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F32A2494233495D800E37C0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F32A246F233495D100E37C0A = {
+			isa = PBXGroup;
+			children = (
+				F32A24BD2338A96700E37C0A /* Fonts */,
+				F32A247A233495D100E37C0A /* PennMobile */,
+				F32A248F233495D800E37C0A /* PennMobileTests */,
+				F32A249A233495D800E37C0A /* PennMobileUITests */,
+				F32A2479233495D100E37C0A /* Products */,
+				F32A24C92338B40F00E37C0A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F32A2479233495D100E37C0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F32A2478233495D100E37C0A /* PennMobile.app */,
+				F32A248C233495D800E37C0A /* PennMobileTests.xctest */,
+				F32A2497233495D800E37C0A /* PennMobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F32A247A233495D100E37C0A /* PennMobile */ = {
+			isa = PBXGroup;
+			children = (
+				F32A247B233495D100E37C0A /* AppDelegate.swift */,
+				F32A24CC2338B52A00E37C0A /* WebViewController.swift */,
+				F32A24A92335475A00E37C0A /* TableViewController.swift */,
+				F32A24B123355ACC00E37C0A /* TableViewCell2.swift */,
+				F32A24B223355ACC00E37C0A /* TableViewCell2.xib */,
+				F32A247F233495D100E37C0A /* Main.storyboard */,
+				F32A2482233495D800E37C0A /* Assets.xcassets */,
+				F32A2484233495D800E37C0A /* LaunchScreen.storyboard */,
+				F32A2487233495D800E37C0A /* Info.plist */,
+			);
+			path = PennMobile;
+			sourceTree = "<group>";
+		};
+		F32A248F233495D800E37C0A /* PennMobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				F32A2490233495D800E37C0A /* PennMobileTests.swift */,
+				F32A2492233495D800E37C0A /* Info.plist */,
+			);
+			path = PennMobileTests;
+			sourceTree = "<group>";
+		};
+		F32A249A233495D800E37C0A /* PennMobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F32A249B233495D800E37C0A /* PennMobileUITests.swift */,
+				F32A249D233495D800E37C0A /* Info.plist */,
+			);
+			path = PennMobileUITests;
+			sourceTree = "<group>";
+		};
+		F32A24C92338B40F00E37C0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F32A24CA2338B41000E37C0A /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F32A2477233495D100E37C0A /* PennMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F32A24A0233495D800E37C0A /* Build configuration list for PBXNativeTarget "PennMobile" */;
+			buildPhases = (
+				F32A2474233495D100E37C0A /* Sources */,
+				F32A2475233495D100E37C0A /* Frameworks */,
+				F32A2476233495D100E37C0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PennMobile;
+			productName = PennMobile;
+			productReference = F32A2478233495D100E37C0A /* PennMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F32A248B233495D800E37C0A /* PennMobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F32A24A3233495D800E37C0A /* Build configuration list for PBXNativeTarget "PennMobileTests" */;
+			buildPhases = (
+				F32A2488233495D800E37C0A /* Sources */,
+				F32A2489233495D800E37C0A /* Frameworks */,
+				F32A248A233495D800E37C0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F32A248E233495D800E37C0A /* PBXTargetDependency */,
+			);
+			name = PennMobileTests;
+			productName = PennMobileTests;
+			productReference = F32A248C233495D800E37C0A /* PennMobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F32A2496233495D800E37C0A /* PennMobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F32A24A6233495D800E37C0A /* Build configuration list for PBXNativeTarget "PennMobileUITests" */;
+			buildPhases = (
+				F32A2493233495D800E37C0A /* Sources */,
+				F32A2494233495D800E37C0A /* Frameworks */,
+				F32A2495233495D800E37C0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F32A2499233495D800E37C0A /* PBXTargetDependency */,
+			);
+			name = PennMobileUITests;
+			productName = PennMobileUITests;
+			productReference = F32A2497233495D800E37C0A /* PennMobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F32A2470233495D100E37C0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Charlie Herrmann";
+				TargetAttributes = {
+					F32A2477233495D100E37C0A = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					F32A248B233495D800E37C0A = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = F32A2477233495D100E37C0A;
+					};
+					F32A2496233495D800E37C0A = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = F32A2477233495D100E37C0A;
+					};
+				};
+			};
+			buildConfigurationList = F32A2473233495D100E37C0A /* Build configuration list for PBXProject "PennMobile" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F32A246F233495D100E37C0A;
+			productRefGroup = F32A2479233495D100E37C0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F32A2477233495D100E37C0A /* PennMobile */,
+				F32A248B233495D800E37C0A /* PennMobileTests */,
+				F32A2496233495D800E37C0A /* PennMobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F32A2476233495D100E37C0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F32A24BE2338A96700E37C0A /* Fonts in Resources */,
+				F32A24B423355ACC00E37C0A /* TableViewCell2.xib in Resources */,
+				F32A2486233495D800E37C0A /* LaunchScreen.storyboard in Resources */,
+				F32A2483233495D800E37C0A /* Assets.xcassets in Resources */,
+				F32A2481233495D100E37C0A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F32A248A233495D800E37C0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F32A24B52335BB4800E37C0A /* Assets.xcassets in Resources */,
+				F32A24BF2338A96700E37C0A /* Fonts in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F32A2495233495D800E37C0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F32A24B62335BB4900E37C0A /* Assets.xcassets in Resources */,
+				F32A24C02338A96700E37C0A /* Fonts in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F32A2474233495D100E37C0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F32A24B323355ACC00E37C0A /* TableViewCell2.swift in Sources */,
+				F32A24AA2335475A00E37C0A /* TableViewController.swift in Sources */,
+				F32A247C233495D100E37C0A /* AppDelegate.swift in Sources */,
+				F32A24CD2338B52A00E37C0A /* WebViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F32A2488233495D800E37C0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F32A2491233495D800E37C0A /* PennMobileTests.swift in Sources */,
+				F32A24CE2338B52A00E37C0A /* WebViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F32A2493233495D800E37C0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F32A249C233495D800E37C0A /* PennMobileUITests.swift in Sources */,
+				F32A24CF2338B52A00E37C0A /* WebViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F32A248E233495D800E37C0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F32A2477233495D100E37C0A /* PennMobile */;
+			targetProxy = F32A248D233495D800E37C0A /* PBXContainerItemProxy */;
+		};
+		F32A2499233495D800E37C0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F32A2477233495D100E37C0A /* PennMobile */;
+			targetProxy = F32A2498233495D800E37C0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F32A247F233495D100E37C0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F32A2480233495D100E37C0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F32A2484233495D800E37C0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F32A2485233495D800E37C0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F32A249E233495D800E37C0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F32A249F233495D800E37C0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F32A24A1233495D800E37C0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PennMobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HerrmannEnterprise.PennMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F32A24A2233495D800E37C0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PennMobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HerrmannEnterprise.PennMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F32A24A4233495D800E37C0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PennMobileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HerrmannEnterprise.PennMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PennMobile.app/PennMobile";
+			};
+			name = Debug;
+		};
+		F32A24A5233495D800E37C0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PennMobileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HerrmannEnterprise.PennMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PennMobile.app/PennMobile";
+			};
+			name = Release;
+		};
+		F32A24A7233495D800E37C0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PennMobileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HerrmannEnterprise.PennMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PennMobile;
+			};
+			name = Debug;
+		};
+		F32A24A8233495D800E37C0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PennMobileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HerrmannEnterprise.PennMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PennMobile;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F32A2473233495D100E37C0A /* Build configuration list for PBXProject "PennMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F32A249E233495D800E37C0A /* Debug */,
+				F32A249F233495D800E37C0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F32A24A0233495D800E37C0A /* Build configuration list for PBXNativeTarget "PennMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F32A24A1233495D800E37C0A /* Debug */,
+				F32A24A2233495D800E37C0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F32A24A3233495D800E37C0A /* Build configuration list for PBXNativeTarget "PennMobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F32A24A4233495D800E37C0A /* Debug */,
+				F32A24A5233495D800E37C0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F32A24A6233495D800E37C0A /* Build configuration list for PBXNativeTarget "PennMobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F32A24A7233495D800E37C0A /* Debug */,
+				F32A24A8233495D800E37C0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F32A2470233495D100E37C0A /* Project object */;
+}
